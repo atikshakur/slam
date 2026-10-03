@@ -1,0 +1,26 @@
+# Swift Package Manager and generated app/release artifacts
+.build/
+.swiftpm/
+/dist/
+*.dmg
+*.dmg.sha256
+*.dSYM/
+
+# Local Xcode state
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# macOS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
